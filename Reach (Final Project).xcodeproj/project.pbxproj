@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF9E6A501A3CFD9C009FEA69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E6A4F1A3CFD9C009FEA69 /* main.m */; };
+		FF9E6A521A3CFD9C009FEA69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9E6A511A3CFD9C009FEA69 /* Images.xcassets */; };
 		FF9E6A611A3CFD9C009FEA69 /* Reach__Final_Project_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E6A601A3CFD9C009FEA69 /* Reach__Final_Project_Tests.m */; };
 		FF9E6A6D1A3CFDC4009FEA69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9E6A6B1A3CFDC4009FEA69 /* AppDelegate.m */; };
 		FF9E6A6E1A3CFDC4009FEA69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9E6A6C1A3CFDC4009FEA69 /* MainMenu.xib */; };
@@ -27,6 +28,7 @@
 		FF9E6A471A3CFD9C009FEA69 /* Reach (Final Project).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reach (Final Project).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E6A4B1A3CFD9C009FEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9E6A4F1A3CFD9C009FEA69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9E6A511A3CFD9C009FEA69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF9E6A5A1A3CFD9C009FEA69 /* Reach (Final Project)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reach (Final Project)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E6A5F1A3CFD9C009FEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9E6A601A3CFD9C009FEA69 /* Reach__Final_Project_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reach__Final_Project_Tests.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				FF9E6A6A1A3CFDC4009FEA69 /* AppDelegate.h */,
 				FF9E6A6B1A3CFDC4009FEA69 /* AppDelegate.m */,
 				FF9E6A6C1A3CFDC4009FEA69 /* MainMenu.xib */,
+				FF9E6A511A3CFD9C009FEA69 /* Images.xcassets */,
 				FF9E6A4A1A3CFD9C009FEA69 /* Supporting Files */,
 			);
 			path = "Reach (Final Project)";
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9E6A521A3CFD9C009FEA69 /* Images.xcassets in Resources */,
 				FF9E6A6E1A3CFDC4009FEA69 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +271,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -302,7 +306,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -311,12 +315,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEPLOYMENT_LOCATION = NO;
-				DEPLOYMENT_POSTPROCESSING = NO;
 				INFOPLIST_FILE = "Reach (Final Project)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
 			};
@@ -327,12 +327,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEPLOYMENT_LOCATION = NO;
-				DEPLOYMENT_POSTPROCESSING = NO;
 				INFOPLIST_FILE = "Reach (Final Project)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
 			};
